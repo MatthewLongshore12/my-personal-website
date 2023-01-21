@@ -1,4 +1,5 @@
 body {
-    background: blue;
+    background: url(https://www.jasper.travel/media/images/JBartlett--April2019-.2e16d0ba.fill-1370x800.format-jpeg.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
-  
