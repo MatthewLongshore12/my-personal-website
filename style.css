@@ -30,3 +30,13 @@ body {
 .wrapper p {
     text-align: justify;
 }
+
+.btn {
+    border: 1px solid white;
+    background:none;
+    color: white;
+}
+
+.btn:hover {
+    color: #005bdb;
+}
