@@ -1,3 +1,9 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+
+let buttons = document.querySelectorAll(".btn");
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(){
+        alert("Im excited to learn more!!");
+    });
+}
+
+
